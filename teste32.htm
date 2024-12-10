@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Thiago</title>
+    
+    <!-- Estilos CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('hk2.gif');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            text-align: center;
+            color: #2c3e50;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin: 20px 0 10px 0;
+            color: #2980b9;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0 20px;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #e74c3c;
+            font-size: 1.5em;
+            line-height: 1;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            border: 5px solid #2980b9;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        marquee {
+            font-size: 1.8em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #2980b9;
+            margin: 20px 0;
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Curriculum Vitae</h1>
+    <h2>Thiago's Curriculum</h2>
+
+    <img src="foto2.jpg" alt="Foto de Thiago">
+
+    <!-- Música de fundo -->
+    <audio controls autoplay loop>
+        <source src="persona.mp3" type="audio/ogg">
+        <source src="persona.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Marquee com nome e link -->
+    <marquee behavior="scroll" direction="left">
+        <h3><a href="https://www.instagram.com/thiagoomlb_/?next=%2F" target="_blank">Thiago Menezes Leal Bispo</a></h3>
+    </marquee>
+
+    <hr>
+
+    <!-- Dados pessoais -->
+    <h3><i>Dados Pessoais:</i></h3>
+    <ul>
+        <li>Endereço: Rua Doutor João Carlos Meireles Paolilo, 178, Rua do Catu</li>
+        <li>Email: <a href="mailto:thiagoomlb@gmail.com">thiagoomlb@gmail.com</a></li>
+        <li>Telefone: (75) 98884-5950</li>
+    </ul>
+
+    <!-- Escolaridade -->
+    <h3><i>Escolaridade:</i></h3>
+    <ul>
+        <li>Ensino Médio Integrado ao Curso de Informática - 
+            <a href="https://www.ifbaiano.edu.br/unidades/alagoinhas/" target="_blank">IFBAIANO Campus Alagoinhas</a> - 
+            Em curso
+        </li>
+    </ul>
+
+    <!-- Cursos Extras -->
+    <h3><i>Cursos Extras:</i></h3>
+    <ul>
+        <li>Curso de Robótica - 
+            <a href="https://www.dcet2.uneb.br/" target="_blank">UNEB</a> - 
+            1 ano
+        </li>
+    </ul>
+
+</body>
+
+</html>
